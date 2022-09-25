@@ -1,0 +1,26 @@
+[
+    {
+        "title": "White space and clean design",
+        "companyName": "Samsung",
+        "siteUrl": "https://www.samsung.com/us/",
+        "imageUrl": "../images/samsung.jpg",
+        "imageAlt": "Samsung's website screenshot",
+        "description": "This website is an excellent example of white space because elements are quite separated from each other and every section is well defined. Even tabs and icons have a substantial distance between each other."
+    },
+    {
+        "title": "PARC: Alignment",
+        "companyName": "Vans",
+        "siteUrl": "https://www.vans.com",
+        "imageUrl": "../images/vans.jpg",
+        "imageAlt": "Vans' website screenshot",
+        "description": "I found that all elements that are related to others, like images, sort, filter buttons, or breadcrumbs are aligned and give the site a feeling of order. "
+    },
+    {
+        "title": "PARC: Repetition",
+        "companyName": "Mercado Libre",
+        "siteUrl": "https://www.mercadolibre.com.ar",
+        "imageUrl": "../images/mercado-libre.jpg",
+        "imageAlt": "Mercado Libre's website screenshot",
+        "description": "When I saw the offers section on this page, I thought of how repetition is important and how it helps us locate specific features on an item. In this example, the price is always in the same place, the amount of discount, the shipment options, and so on."
+    }
+]

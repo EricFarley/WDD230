@@ -1,6 +1,8 @@
 :root {
-    --main-color: #247BA0;
-    --text-color: white;
+    --main-dark-color: #354F52;
+    --main-light-color: #CAD2C5;
+    --text-dark-color: white;
+    --text-light-color: black;
 }
 
 * {
@@ -10,9 +12,12 @@
 }
 html, body { height: 100%; }
 
+h1, h2, h3, h4 { font-family: 'Lato', sans-serif; }
+p, li, a { font-family: 'Roboto', sans-serif; }
+
 body {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
 }
 
 header, main, footer {
@@ -22,20 +27,21 @@ header, main, footer {
 header {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    gap: 0 1rem;
     margin: 2rem 1rem 1rem;
     padding: 1rem;
     border-radius: 10px;
-    background-color: var(--main-color);
-    color: var(--text-color);
+    background-color: var(--main-dark-color);
+    color: var(--text-dark-color);
 }
 
 header h1, img {
-    text-align: center;
     align-self: center;
+    justify-self: center;
 }
 
 main {
-    margin: 2rem 1rem 1rem;
+    margin-top: 1rem 0.5rem 0.5rem;
     padding: 1rem;
 }
 
@@ -53,8 +59,8 @@ main h2 {
 }
 
 header img {
-    width: 160px;
-    height: auto;
+    object-fit: cover;
+    width: 100%;
 }
 
 footer {
@@ -63,12 +69,50 @@ footer {
     margin: 2rem 1rem 1rem;
     padding: 1rem;
     border-radius: 10px;
-    background-color: var(--main-color);
-    color: var(--text-color);
+    background-color: var(--main-dark-color);
+    color: var(--text-dark-color);
 }
 
-footer div {
+footer p {
     grid-column: 2 / 3;
     text-align: center; 
 }
 
+section {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1rem 1rem;
+}
+
+article {
+    background-color: var(--main-light-color);
+    border-radius: 15px;
+    margin: 2rem 0;
+}
+
+article h3 {
+    background-color: var(--main-dark-color);
+    color: var(--text-dark-color);
+    border-radius: 15px 15px 0 0;
+    padding: 1rem;
+}
+
+article h4 {
+    padding: 1rem;
+}
+
+article a {
+    display: block;;
+    padding: 0.5rem 1rem;
+}
+
+article img {
+    padding: 1rem;
+    border-radius: 25px;
+    object-fit: cover;
+    width: 100%;
+}
+
+article p {
+    padding: 1rem;
+}

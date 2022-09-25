@@ -1,0 +1,33 @@
+@media (min-width: 600px) {
+    body {
+        grid-template-columns: 1rem 2fr 1rem;
+    }
+
+    header {
+        grid-template-columns: auto;
+    }
+
+    section {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        grid-template-columns: .75fr 2fr .75fr;
+    }
+    
+    header {
+        grid-template-columns: 2fr 3fr;
+    }
+
+    section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
