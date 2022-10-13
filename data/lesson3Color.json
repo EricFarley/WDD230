@@ -1,0 +1,10 @@
+{
+    "title": "Color palette",
+    "source": "https://coolors.co/11385c-196d94-42b3ab-e3b424",
+    "palette": [
+        {"title": "Primary", "code": "#11385C"},
+        {"title": "Secondary", "code": "#196D94"},
+        {"title": "Accent 1", "code": "#42B3AB"},
+        {"title": "Accent 2", "code": "#E3B424"}
+    ]
+}

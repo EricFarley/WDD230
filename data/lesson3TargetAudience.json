@@ -1,0 +1,29 @@
+{
+    "targetAudience": {
+        "title": "Target audience",
+        "content": "This site is planned for business owners, investors, entrepreneurs and those interested to learn more about local businesses in the Rosario area."
+    },
+    "personas": {
+        "examples": [
+            {
+                "name": "",
+                "photo": "",
+                "jobTitle": "",
+                "demographics": "",
+                "goal": "",
+                "quote": ""
+            }
+        ],
+        "title": "Personas"
+    },
+    "scenarios": {
+        "items": [
+            "A remodeling company looking for networking opportunities.",
+            "A builder looking for land where to expand his developments.",
+            "A young entrepreneur looking for guidance how to start a business.",
+            "A marketing company looking for business-related data and demographics.",
+            "A current Chamber of Commerce member looking for news and events information."
+        ],
+        "title": "Scenarios"
+    }
+}

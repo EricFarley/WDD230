@@ -1,0 +1,16 @@
+:root {
+    --primary-dark-color: #284B63;
+    --secondary-dark-color: #3C6E71;
+    --accent-dark-color-1: #D9D9D9;
+    --accent-dark-color-2: #FFFFFF;
+    --light-text-color: #353535;
+    --dark-text-color: #FFFFFF;
+
+}
+
+.division {
+    height: 1px;
+    background: rgba(0, 0, 0, .3);
+    width: calc(100% - 1.5rem);
+    justify-content: center;
+}
