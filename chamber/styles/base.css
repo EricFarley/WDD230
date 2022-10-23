@@ -107,6 +107,13 @@ main section {
     height: 200px;
 }
 
+main section#hero {
+    background-image: url('../images/rosario-city.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 main section#join {
     display: none;
 }
@@ -151,4 +158,12 @@ footer img {
 
 .separation {
     display: none;
+}
+
+.banner {
+    background-color: var(--secondary-dark-color);
+    color: var(--dark-text-color);
+    font-size: larger;
+    padding: 2rem;
+    text-align: center;
 }
