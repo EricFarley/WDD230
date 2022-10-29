@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,18 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/large.css">
     <link rel="stylesheet" href="../styles/normalize.css">
 
-    <title>Rosario Chamber of Commerce</title>
+    <title>Discover</title>
 </head>
+
 <body>
     <header>
         <img id="site-logo" src="./images/rosario-chamber-of-commerce-logo.png" alt="logo">
@@ -37,16 +41,46 @@
         <p id="today">Saturday, 8 October 2022</p>
     </header>
     <main>
-        <section id="hero"></section>
-        <section id="event">Event</section>
-        <section id="weather">Weather</section>
-        <section id="join">Join</section>
-        <section id="news">News release</section>
-        <section id="spotlight">
-            <article>Spotlight 1</article>
-            <article>Spotlight 2</article>
-            <article>Spotlight 3</article>
+        <section id="discover">
+            <h1>Discover</h1>
+            <picture>
+                <img loading="lazy" data-src="images/discover/monumento.jpg" alt="Monument">
+            </picture>
+            <picture>
+                <img loading="lazy" data-src="images/discover/aerea.jpg" alt="Overview">
+            </picture>
+            <picture>
+                <img loading="lazy" data-src="images/discover/peatonal.jpg" alt="Downtown">
+            </picture>
+            <picture>
+                <img loading="lazy" data-src="images/discover/puente.jpg" alt="Bridge">
+            </picture>
+            <picture>
+                <img loading="lazy" data-src="images/discover/barquito.png" alt="Boat">
+            </picture>
         </section>
+        <aside id="population">
+            <h3>Population</h3>
+            <ul>
+                <li>Area: 178.69 km <sup>2</sup></li>
+                <li>Population: 948.312</li>
+                <li>Women: 52.5%</li>
+                <li>Men: 47.5%</li>
+            </ul>
+        </aside>
+        <aside id="city">
+            <h3>City</h3>
+            <ul>
+                <li>Limits:
+                    <ul>
+                        <li>East: Paraná River</li>
+                        <li>North: Granadero Baigorria City and Ibarlucea City</li>
+                        <li>West: Funes City and Pérez City</li>
+                        <li>South: Soldini City, Piñeiro City and Villa Gobernador Gálvez City</li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
     </main>
     <footer>
         <img src="./images/rosario-chamber-of-commerce-logo.png" alt="logo">
@@ -69,5 +103,7 @@
     </footer>
     <script src="./scripts/main.js"></script>
     <script src="./scripts/banner.js"></script>
+    <script src="./scripts/lazyLoadImages.js"></script>
 </body>
+
 </html>

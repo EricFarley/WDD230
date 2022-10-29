@@ -1,3 +1,5 @@
+/* HEADER */
+
 header {
     display: grid;
     grid-template-columns: repeat(15, 1fr);
@@ -79,20 +81,30 @@ nav.open ul {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    text-align: center;
     padding: 0;
     margin: 0;
 }
 
 nav ul li {
     list-style-type: none;
-    padding: .75rem;
+    padding: .5rem;
     width: calc(100% - 1.5rem);
     text-align: center;
 }
 
-nav ul li:hover {
+nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+nav ul li a {
+    padding: .5rem;
+    align-self: center;
+    text-decoration: none;
+    color: var(--light-text-color);
+}
+
+/* MAIN */
 
 main {
     margin: .5rem .5rem;
@@ -106,6 +118,16 @@ main section {
     color: var(--light-text-color);
     height: 200px;
 }
+
+main section article {
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: lightgray;
+    height: calc(100px - 2rem);
+}
+
+
+/* HOME PAGE */
 
 main section#hero {
     background-image: url('../images/rosario-city.jpg');
@@ -122,12 +144,52 @@ main section#spotlight article:nth-child(3) {
     display: none;
 }
 
-main section article {
-    padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    background-color: lightgray;
-    height: calc(100px - 2rem);
+/* DISCOVER PAGE */
+
+main section#discover {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    color: var(--light-text-color);
+    height: auto;
 }
+
+main section#discover h1 {
+    text-align: center;
+}
+
+main section#discover picture {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1rem 0;
+    min-height: 300px;
+}
+
+main section#discover picture img {
+    grid-column: 1 / -1;
+    width: 100%;
+    min-height: 300px;
+    background-color: lightgray;
+    object-fit: cover;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+}
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+img:not([src]) {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* FOOTER */
 
 footer {
     display: grid;
@@ -158,12 +220,4 @@ footer img {
 
 .separation {
     display: none;
-}
-
-.banner {
-    background-color: var(--secondary-dark-color);
-    color: var(--dark-text-color);
-    font-size: larger;
-    padding: 2rem;
-    text-align: center;
 }

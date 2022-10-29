@@ -17,3 +17,11 @@ section, p, li, a { font-family: 'Roboto', sans-serif; }
     width: calc(100% - 1.5rem);
     justify-content: center;
 }
+
+.banner {
+    background-color: var(--secondary-dark-color);
+    color: var(--dark-text-color);
+    font-size: larger;
+    padding: 2rem;
+    text-align: center;
+}

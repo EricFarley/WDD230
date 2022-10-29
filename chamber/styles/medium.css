@@ -1,4 +1,7 @@
-@media (min-width: 32.5em) {    
+@media (min-width: 32.5em) { 
+    
+    /* HEADER */
+
     header h1 {
         grid-column: 4 / 11;
         grid-row: 1 / 2;
@@ -61,17 +64,28 @@
         text-align: center;
     }
     
+    /* MAIN */
     
     main {
         display: grid !important;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(5, auto);
         gap: 0 .5rem;
     }
 
     main section {
         grid-column: 1 / -1;
     }
+
+    main section article {
+        padding: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        background-color: lightgray;
+        height: auto;
+    }
+
+
+    /* HOME PAGE */
 
     main section#hero {
         grid-row: 1 / 2;
@@ -107,12 +121,32 @@
         display: none;
     }
 
-    main section article {
-        padding: 1rem;
-        border: 1px solid rgba(0, 0, 0, 0.2);
-        background-color: lightgray;
-        height: auto;
+    /* DISCOVER PAGE */
+
+    main section#discover {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
     }
+
+    main aside#population {
+        grid-column: 1 / 4;
+        margin-top: 1rem;
+    }
+    main aside#population h3 {
+        text-align: center;
+    }
+
+    main aside#city {
+        grid-column: 4 / 7;
+        margin-top: 1rem;
+    }
+
+    main aside#city h3 {
+        text-align: center;
+    }
+
+
+    /* FOOTER */
 
     footer {
         display: grid;
