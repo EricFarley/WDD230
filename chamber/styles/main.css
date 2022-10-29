@@ -24,4 +24,5 @@ section, p, li, a { font-family: 'Roboto', sans-serif; }
     font-size: larger;
     padding: 2rem;
     text-align: center;
+    grid-column: 1 / -1;
 }
