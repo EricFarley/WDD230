@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+
+    <title>Join us</title>
+</head>
+<body>
+    <header>
+        <img id="site-logo" src="./images/rosario-chamber-of-commerce-logo.png" alt="logo">
+        <h1>Rosario</h1>
+        <h2>Chamber of Commerce</h2>
+        <img id="facebook-logo" src="./images/facebook.png" alt="Facebook">
+        <img id="linkedin-logo" src="./images/linkedin.png" alt="LinkedIn">
+        <button id="menuButton">&#9776;</button>
+        <nav id="primaryNav">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./discover.html">Discover</a></li>
+                <li><a href="./discover.html">Directory</a></li>
+                <li><a href="./discover.html">Join</a></li>
+                <li><a href="./discover.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p id="today">Saturday, 8 October 2022</p>
+    </header>
+    <main>
+        <form action="thankyou.html" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>
+                    First name:
+                    <input type="text" name="firstName" required>
+                </label>
+                <label>
+                    Last name:
+                    <input type="text" name="lastName" required>
+                </label>
+                <label>
+                    Email:
+                    <input type="email" name="email" placeholder="username@provider.com" required>
+                </label>
+                <label>
+                    Phone number:
+                    <input type="tel" name="phoneNumber" required>
+                </label>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>Business Information</legend>
+                <label>
+                    Business name:
+                    <input type="text" name="businessName" required>
+                </label>
+                <label>
+                    Business position title:
+                    <input type="text" name="positionTitle" pattern="[A-Za-z]">
+                </label>
+                <label>
+                    Business description:
+                    <textarea name="businessDescription" cols="30" rows="10"></textarea>
+                </label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Membership Information</legend>
+                <select name="membershipLevel">
+                    <option value="NPM">NP Membership</option> 
+                    <!--  is for non profit organizations and there is no fee -->
+                    <option value="BM">Bronze Membership</option>
+                    <option value="SM">Silver Membership</option>
+                    <option value="GM">Gold Membership</option>
+                </select>
+            </fieldset>
+
+            <label hidden>
+                <input name="datetimeLoaded" type="text" hidden>
+            </label>
+            <input type="submit" value="Join our community" class="submitBtn">
+        </form>
+    </main>
+</body>
+</html>

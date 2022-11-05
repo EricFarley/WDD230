@@ -1,4 +1,4 @@
-@media (min-width: 32.5em) { 
+@media (min-width: 26.5em) { 
     
     /* HEADER */
 
@@ -143,6 +143,26 @@
 
     main aside#city h3 {
         text-align: center;
+    }
+
+
+    /* FORM */
+
+    form {
+        grid-column: 2 / 6;
+    }
+
+    form label input, form label textarea, form label select {
+        max-width: 14em;
+    }
+
+    
+    form label input:required {
+        max-width: calc(14em - 6px);
+    }
+
+    form label input:required:valid {
+        max-width: calc(14em - 6px);
     }
 
 

@@ -158,6 +158,12 @@
         margin-top: 1rem;
     }
 
+    /* FORM */
+
+    form {
+        grid-column: 3 / 4;
+    }
+
     /* FOOTER */
 
     footer div {
