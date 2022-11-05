@@ -158,6 +158,11 @@
         margin-top: 1rem;
     }
 
+    main h1 {
+        grid-column: 3 / 4;
+    }
+
+
     /* FORM */
 
     form {

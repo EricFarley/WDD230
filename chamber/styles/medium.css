@@ -145,6 +145,10 @@
         text-align: center;
     }
 
+    main h1 {
+        grid-column: 3 / 5;
+    }
+
 
     /* FORM */
 

@@ -126,6 +126,10 @@ main section article {
     height: calc(100px - 2rem);
 }
 
+main h1 {
+    text-align: center;
+}
+
 
 /* HOME PAGE */
 
