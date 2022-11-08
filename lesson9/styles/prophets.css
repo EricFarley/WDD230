@@ -1,0 +1,35 @@
+h1, h2, p { font-family: 'Lato', sans-serif;}
+
+header h1 {
+    text-align: center;
+}
+
+main div.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+main div.cards section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: .3rem .3rem;
+    padding: .5rem 2rem;
+    text-align: center;
+    background-color: rgb(204, 226, 233) ;
+}
+
+main div.cards section p {
+    margin: .5rem;
+}
+
+main div.cards section h2 {
+    margin: .75rem;
+}
+
+footer {
+    margin-top: 1rem;
+    padding: 2rem;
+    background-color: lightgray;
+    text-align: center;
+}
