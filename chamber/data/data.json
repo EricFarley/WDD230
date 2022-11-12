@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "membership_information": "SM",
+        "business_name": "Rosario Hogar",
+        "email": "rosariohogar@gmail.com",
+        "address": "Avenida Presidente Perón 3477, Rosario, Santa Fe",
+        "phone_number": "+543412272818",
+        "website": "https://www.rosario-hogar.com/",
+        "logo_url": "https://d22fxaf9t8d39k.cloudfront.net/2fbd21afb539765987927e87affdc65d75a4333072f75b0d6b3e82740017151c157467.png"
+    },
+    {
+        "id": 2,
+        "membership_information": "GM",
+        "business_name": "Bertollo Buenas Raíces",
+        "email": "info@bertollo.com.ar",
+        "address": "Mendoza 4554, Rosario, Santa Fe",
+        "phone_number": "+5493414688607",
+        "website": "https://www.bertollo.com.ar/",
+        "logo_url": "https://static.tokkobroker.com/tfw_images/1311_Bertollo%20Buenas%20Ra%C3%ADces%20de%20Diego%20Bertollo%20CI%200042/Logo%20Bertollo.png"
+    },
+    {
+        "id": 3,
+        "membership_information": "BM",
+        "business_name": "Alma Rural",
+        "email": "almarural.local@gmail.com",
+        "address": "Cafferata 729, Rosario, Santa Fe",
+        "phone_number": "+5491130644450",
+        "website": "https://www.almarural.com.ar/",
+        "logo_url": "https://www.mercadodelpatio.gob.ar/resources/produccion/contenidos/top/medium/locales-comerciales/AlmaRural.jpg"
+    },
+    {
+        "id": 4,
+        "membership_information": "BM",
+        "business_name": "Luco Express",
+        "email": "express@luco.com.ar",
+        "address": "Cafferata 729 Local 26, Rosario, Santa Fe",
+        "phone_number": "+5493413260020",
+        "website": "https://www.lucoexpress.com.ar/",
+        "logo_url": "https://www.mercadodelpatio.gob.ar/resources/produccion/contenidos/top/medium/locales-comerciales/LUCO.jpg"
+    },
+    {
+        "id": 5,
+        "membership_information": "SM",
+        "business_name": "Panadería Boutique",
+        "email": "panaderiaboutique@calzia.com.ar",
+        "address": "+5493413455187",
+        "phone_number": "-",
+        "website": "http://www.panaderiaboutique.com.ar",
+        "logo_url": "http://www.panaderiaboutique.com.ar/img/logo.png"
+    },
+    {
+        "id": 6,
+        "membership_information": "BM",
+        "business_name": "Verde que te quiero verde",
+        "email": "info@verdequetequiero.com",
+        "address": "-",
+        "phone_number": "+543412981751",
+        "website": "https://www.verdequetequiero.com",
+        "logo_url": "https://www.mercadodelpatio.gob.ar/resources/produccion/contenidos/top/medium/locales-gastronomicos/VERDE.jpg"
+    },
+    {
+        "id": 7,
+        "membership_information": "GM",
+        "business_name": "Portal de los marinos",
+        "email": "ventas@ottadoconstructora.com.ar",
+        "address": "Pasaje Storni 701, Rosario, Santa Fe",
+        "phone_number": "+549416091760",
+        "website": "https://www.portaldelosmarinos.com.ar/",
+        "logo_url": "https://www.portaldelosmarinos.com.ar/images/logo_new.png"
+    },
+    {
+        "id": 8,
+        "membership_information": "BM",
+        "business_name": "Papelera Rosario",
+        "email": "papelerarosario@gmail.com",
+        "address": "-",
+        "phone_number": "+5491166795344",
+        "website": "https://www.papelera-rosario.com/",
+        "logo_url": "https://lirp.cdn-website.com/d5323360/dms3rep/multi/opt/logo_Mesa+de+trabajo+1-320w.png"
+    },
+    {
+        "id": 9,
+        "membership_information": "GM",
+        "business_name": "Profertil",
+        "email": "profertil@profertil.com.ar",
+        "address": "Héroes de Malvinas 8608, Puerto General San Martín, Santa Fe",
+        "phone_number": "+543414292300",
+        "website": "https://www.profertil.com.ar/",
+        "logo_url": "https://www.profertil.com.ar/wp-content/uploads/2020/09/1542_original.jpg"
+    }
+]

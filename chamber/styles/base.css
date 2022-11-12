@@ -212,19 +212,11 @@ form legend {
     padding: 0 .5rem;
 }
 
-/* form label.top, form div {
-    display: block;
-    padding-top: 1rem;
-    color: #9c2c13;
-    font-size: .8rem;
-} */
-
 form label {
     margin-bottom: 1.5rem;
 }
 
 form label input, form label textarea, form label select {
-    /* -webkit-appearance: none; */
     display: block;
     font-size: 1rem;
     border: 1px solid var(--primary-dark-color);
@@ -234,7 +226,6 @@ form label input, form label textarea, form label select {
     width: 100%;
     max-width: 16em;
     margin-bottom: 1.2rem;
-    /* background-color: ; */
 }
 
 form input.submitBtn {
@@ -259,6 +250,33 @@ form label input:required:valid {
     max-width: calc(16em - 6px);
 }
 
+
+/* DIRECTORY */
+
+main div.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column: 1 / -1;
+}
+
+main div.cards section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin: .3rem .3rem;
+    padding: .5rem .5rem;
+    text-align: center;
+    background-color: rgb(204, 226, 233) ;
+}
+
+main div.cards section p {
+    margin: .5rem;
+}
+
+main div.cards section h2 {
+    margin: .75rem;
+}
 
 
 /* FOOTER */
