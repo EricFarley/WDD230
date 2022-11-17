@@ -144,6 +144,33 @@ main section#join {
     display: none;
 }
 
+main section#weather {
+    background-color: var(--secondary-dark-color);
+    color: var(--dark-text-color);
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(6, auto);
+    align-items: center;
+}
+
+main section#weather h3 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin: .5rem 0;
+}
+
+main section#weather img {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    justify-self: center;
+}
+
+main section#weather p {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin: .5rem 0;
+}
+
 main section#spotlight article:nth-child(3) {
     display: none;
 }
@@ -289,6 +316,7 @@ footer {
     align-items: center;
     background-color: var(--accent-dark-color-1);
     color: var(--light-text-color);
+    padding: 0 .5rem;
 }
 
 footer div {
